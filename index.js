@@ -48,4 +48,47 @@ console.log(d,c)
 d = 3
 console.log(d,c)
 
-//
+// tipos de alert navegador
+// window.alert('uma menesagem')
+// window.confirm('Deseja realmente apagar?') retorna falso ou verdadeiro
+// window.prompt('Digite o seu nome:') retorna um texto
+// essas funções podem ser inseridas em variaveis
+// armazenado em string, precisando converter
+
+// let i1 = prompt('Entre com um numero');
+// let i2 = prompt('Entre com outro numero');
+// i1 = Number(i1);
+// i2 = Number(i2);
+// let koe = i1 + i2;
+// alert(`valor: ${koe}`);
+// metodo trolhos
+let varA = 'A';
+let varB = 'B';
+let varC = 'C';
+let va = varA;
+let vb = varB;
+let vc = varC;
+varA = vb;
+varB = vc;
+varC = va;
+console.log(varA,varB,varC);
+// melhor metodo
+let coemane 
+varA = 'A';
+varB = 'B';
+varC = 'C';
+coemane = varA;
+varA = varB;
+varB = varC;
+varC = coemane;
+console.log(varA,varB,varC);
+/// utilizando lista
+[varA,varB,varC] = [varB,varC,varA]
+console.log(varA,varB,varC)
+console.log(nom_sobre.charAt(0))
+console.log(nom_sobre.concat(' De', ' Souza', ' Raposo'))
+console.log(`${nom_sobre} De Souza Raposo`)
+// importante
+console.log(nom_sobre.indexOf('Daniel', 5))
+console.log(nom_sobre.lastIndexOf('Pedro'))
+console.log(nom_sobre.replace('Pedro', 'Raposo'))
