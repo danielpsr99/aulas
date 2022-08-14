@@ -83,12 +83,12 @@ varB = varC;
 varC = coemane;
 console.log(varA,varB,varC);
 /// utilizando lista
-[varA,varB,varC] = [varB,varC,varA]
-console.log(varA,varB,varC)
-console.log(nom_sobre.charAt(0))
-console.log(nom_sobre.concat(' De', ' Souza', ' Raposo'))
-console.log(`${nom_sobre} De Souza Raposo`)
+[varA,varB,varC] = [varB,varC,varA];
+console.log(varA,varB,varC);
+console.log(nom_sobre.charAt(0));
+console.log(nom_sobre.concat(' De', ' Souza', ' Raposo'));
+console.log(`${nom_sobre} De Souza Raposo`);
 // importante
-console.log(nom_sobre.indexOf('Daniel', 5))
-console.log(nom_sobre.lastIndexOf('Pedro'))
-console.log(nom_sobre.replace('Pedro', 'Raposo'))
+console.log(nom_sobre.indexOf('Daniel', 5));
+console.log(nom_sobre.lastIndexOf('Pedro'));
+console.log(nom_sobre.replace('Pedro', 'Raposo'));
